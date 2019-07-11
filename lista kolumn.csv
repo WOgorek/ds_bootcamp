@@ -1,0 +1,225 @@
+Atrybut;Opis;Typ danych;UWAGI
+eventid;ID incydentu;;
+iyear;Rok w którym incydent wyst¹pi³;;
+imonth;Miesi¹c w którym incydent wyst¹pi³;;0 = nieznany
+iday;Dzieñ w miesi¹cu w którym incydent wyst¹pi³;;0 = nieznany
+approxdate;Przybli¿enie je¿eli data nie jest dok³adnie znana;text;"np.: ""first half of 1978"""
+extended;Czy incydent trwa³ d³u¿ej ni¿ 24h;;"1 = tak
+0 = nie"
+resolution;Je¿eli incydent d³u¿szy ni¿ 24h (extended = 1) to data zakoñczenia;;
+country;Kraj wyst¹pienia incydentu;;Kod kraju
+country_txt;Kraj wyst¹pienia incydentu;;Nazwa kraju
+region;Region (kontynent) wyst¹pienia incydentu;;Kod regionu
+region_txt;Region (kontynent) wyst¹pienia incydentu;;Nazwa regionu
+provstate;Stan/region administracyny/ województwo itd... W którym wyst¹pi³ incydent;text;Nazwa terenu
+city;Miasto w którym wyst¹pi³ incydent;;Nazwa miasta
+latitude;Szerokoœæ geograficza wyst¹pienia incydentu (WGS1984);;
+longitude;D³ugoœæ geograficza wyst¹pienia incydentu (WGS1984);;
+specificity;Dodatkowe informacje dotycz¹ce zale¿noœci miêdzy podanym miastem a podanymi wspó³rzêdnymi latitude i longitude;;
+vicinity;Czy incydent wyst¹pi³ w mieœcie czy w jego s¹siedztwie;;"1 = s¹siedztwo miasta
+0 = miasto"
+location;Dodatkowe informacje (tekst) okreœlaj¹ce miejsce wyst¹pienia incydentu;;
+summary;Opis tekstowy incydentu;;
+crit1;Czy incydent motywowany celami politycznymi, ekonomicznymi, religijnymi lub spo³ecznymi;;"1 = tak
+0 = nie"
+crit2;Czy incydent mia³ na celu zastraszenie, wymuszenie lub zwrócenie uwagi pewnych grup spo³ecznych/ szerszych odbiorców;;"1 = tak
+0 = nie"
+crit3;Czy incydent odby³ siê poza dzia³aniami które mo¿na uznaæ za dzia³ania wojenne;;"1 = tak
+0 = nie"
+doubtterr;Czy s¹ w¹tpliwoœci co do tego czy incydent mo¿na uznaæ za akt terrorystyczny;;"1 = tak
+0 = nie"
+alternative;W przypadku w¹tpliwoœci (doubtterr = 1) jakie inne mo¿e byæ wyjaœnienie charekteru incydentu;;
+alternative_txt;Tekstowy opis wyjaœnienia z kolumny alternative;;
+multiple;Czy incydent jest po³¹czony z innymi incydentami;;"1 = tak
+0 = nie"
+success;Czy atak mo¿na uznaæ za skuteczny;;"1 = tak
+0 = nie"
+suicide;Czy atak by³ samobójczy;;"1 = tak
+0 = nie"
+attacktype1;Rodzaj ataku - kod;;"Assassination = 1
+Hijacking = 2
+Kidnapping = 3
+Barricade Incident = 4
+Bombing/Explosion = 5
+Armed Assault = 6
+Unarmed Assault = 7
+Facility/Infrastructure Attack = 8
+Unknow = 9"
+attacktype1_txt;Rodzaj ataku - opis tekstowy;;
+attacktype2;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj ataku;;
+attacktype2_txt;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj ataku;;
+attacktype3;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj ataku;;
+attacktype3_txt;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj ataku;;
+targtype1;Co by³o celem ataku/incydentu;;"1 = Business
+2 = Governement (GENERAL)
+3 = POLICE
+4 = MILITARY
+5 = ABORTION RELATED
+6 = AIPORTS & AIRCRAFT
+7 = GOVERNEMENT (DIPLOMATIC)
+8 = EDUCATIONAL INSTITUTION
+9 = FOOD OR WATER SUPPLY
+10 = JOURNALISTS & MEDIA
+11 = MARITIME
+12 = NGO (NON-GOVERNMENTAL ORG)
+13 = OTHER
+14 = PRIVATE CITIZENS & PROPERTY
+15 = RELIGIOUS FIGURES/INSTITUTIONS 
+16 = TELECOMMUNICATION
+17 = TERRORISTS/NON-STATE MILITIAS
+18 = TOURISTS
+19 = TRANSPORTATION
+20 = UNKNOWN
+21 = UTILITIES
+22 = VIOLENT POLITICAL PARTIES "
+targtype1_txt;Cel ataku - opis tekstowy;;
+targsubtype1;Podkategoria celu ataku;;114 kategorii
+targsubtype1_txt;Cel ataku podkategoria - opis;;
+corp1;Nazwa firmy/organizacji bêd¹cej celem ataku;;"Nieznana = ""Unknown""
+Nie by³o ataku w ¿adn¹ specyficzn¹ firmê = ""Not Applicable"""
+target1;Nazwa/opis konkretnej osoby (np.: soldier, officer, civilian itd....), budynku (np.: US Embassy)itd... Która by³a celem ataku;;
+natlty1;Kod kraju z którego pochodzi³ cel/ofiara;;Kody równoznaczne z kodami z kategorii: country
+natlty1_txt;Opis kraju z którego pochodzi³ cel/ofiara;;
+targtype2;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+targtype2_txt;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+targsubtype2;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+targsubtype2_txt;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+corp2;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+target2;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+natlty2;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+natlty2_txt;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+targtype3;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+targtype3_txt;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+targsubtype3;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+targsubtype3_txt;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+corp3;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+target3;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+natlty3;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+natlty3_txt;U¿ywane w przypadku ataku na wiêcej ni¿ jeden cel;;
+gname;Nazwa/opis grupy dokonuj¹cej ataku;;
+gsubname;Opis podgrupy (je¿eli mo¿liwe jest wyróznienie) dokonuj¹cej ataku;;
+gname2;U¿ywane je¿eli atak przeprowadzony przez wiêcej ni¿ jedn¹ grupê;;
+gsubname2;U¿ywane je¿eli atak przeprowadzony przez wiêcej ni¿ jedn¹ grupê;;
+gname3;U¿ywane je¿eli atak przeprowadzony przez wiêcej ni¿ jedn¹ grupê;;
+gsubname3;U¿ywane je¿eli atak przeprowadzony przez wiêcej ni¿ jedn¹ grupê;;
+motive;Jaki by³ motyw ataku;;
+guncertain1;Czy udzia³ grupy w ataku jest spekulacj¹(podejrzeniem) czy pewnoœci¹;"1 = podejrzenie
+0 = pewnoœæ";
+guncertain2;U¿ywane je¿eli atak przeprowadzony przez wiêcej ni¿ jedn¹ grupê;;
+guncertain3;U¿ywane je¿eli atak przeprowadzony przez wiêcej ni¿ jedn¹ grupê;;
+individual;Czy atak przeprowadzony przez osobê(lub grupê osób) niepowi¹zan¹ z ¿adn¹ z grup terrorystycznych;;"1 = tak
+0 = nie"
+nperps;Ile terrorystów uczestniczy³o w ataku;;Nieznana liczba = -99
+nperpcap;Ilu terorystów zaosta³o z³apanych;;Nieznana liczba = -99
+claimed;Czy ktoœ wzi¹³ odpowiedzialnoœæ za atak;;"1 = tak
+0 = nie"
+claimmode;W jaki sposób dana grupa wziê³a odpowiedzialonoœæ za atak;;"1 = Letter
+2 = Call (post-incident)
+3 = Call (pre-incident)
+4 = Email
+5 = Note left at scene
+6 = Video
+7 = Posted to website, blog, social media
+8 = Personal Claim
+9 = Other
+10 = Unknown"
+claimmode_txt;W jaki sposób dana grupa wziê³a odpowiedzialonoœæ za atak - opis tekstowy;;
+claim2;Je¿eli wiêcej ni¿ 1 grupa wziê³a odpowiedzialnoœæ za atak;;
+claimmode2;Je¿eli wiêcej ni¿ 1 grupa wziê³a odpowiedzialnoœæ za atak;;
+claimmode2_txt;Je¿eli wiêcej ni¿ 1 grupa wziê³a odpowiedzialnoœæ za atak;;
+claim3;Je¿eli wiêcej ni¿ 1 grupa wziê³a odpowiedzialnoœæ za atak;;
+claimmode3;Je¿eli wiêcej ni¿ 1 grupa wziê³a odpowiedzialnoœæ za atak;;
+claimmode3_txt;Je¿eli wiêcej ni¿ 1 grupa wziê³a odpowiedzialnoœæ za atak;;
+compclaim;Czy kilka grup terrrorystycznych niezale¿nie próbuje przypisaæ sobie odpowiedzialnoœæ za atak;;"1 = tak
+0 = nie
+-9 = ""Unknown""
+puste = Not applicable"
+weaptype1;Jaki rodzaj broni zosta³ u¿yty do ataku - kod;;"Biological = 1
+Chemical = 2
+Radiological = 3
+Nuclear = 4
+Firearms = 5
+Explosives = 6
+Fake Weapons = 7
+Incendiary = 8
+Melee = 9
+Vehicle = 10
+Sabotage Equipment = 11
+Other = 12"
+weaptype1_txt;Jaki rodzaj broni zosta³ u¿yty do ataku - opis;;
+weapsubtype1;Podkategoria broni u¿ytej do ataku;;31 podkategorii
+weapsubtype1_txt;Opis tekstowy podkategorii;;
+weaptype2;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj bronii;;
+weaptype2_txt;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj bronii;;
+weapsubtype2;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj bronii;;
+weapsubtype2_txt;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj bronii;;
+weaptype3;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj bronii;;
+weaptype3_txt;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj bronii;;
+weapsubtype3;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj bronii;;
+weapsubtype3_txt;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj bronii;;
+weaptype4;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj bronii;;
+weaptype4_txt;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj bronii;;
+weapsubtype4;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj bronii;;
+weapsubtype4_txt;U¿ywane w przypadku gdy podczas incydentu wykorzystano wiêcej ni¿ jeden rodzaj bronii;;
+weapdetail;Szczegó³y dotycz¹ce u¿ytej broni (opis tekstowy);;
+nkill;Liczba zabitych w incydencie (ofiary i terroryœci);;
+nkillus;Liczba zabitych obywateli USA;;
+nkillter;Liczba zabitych terrorystów;;
+nwound;Liczba rannych (ofiary i terroryœcie);;
+nwoundus;Liczba rannych obywateli USA;;
+nwoundte;Liczba rannych terrorystów;;
+property;"Czy w incydencie zosta³y uszkodzone jakieœ ""dobra""";;"1 = tak
+0 = nie
+-9 = niewiadomo"
+propextent;Je¿eli zosta³y uszkodzone dobra (property = 1) to opis uszkodzeñ;;"1 = Catastrophic (likely ? $1 billion)
+2 = Major (likely ? $1 million but < $1 billion)
+3 = Minor (likely < $1 million)
+4 = Unknown "
+propextent_txt;Opis uszkodzeñ (tekstowy);;
+propvalue;Wartoœæ zniszczeñ (w USD);;
+propcomment;Szczegó³owy opis zniszczeñ;;
+ishostkid;Czy zostali wziêci zak³adnicy;;"1 = tak
+0 = nie
+-9 = niewiadomo"
+nhostkid;Ile osób osta³o wziêtych jako zak³adnicy;;#NAME?
+nhostkidus;Ile obywateli USA zosta³o wziêtych jako zak³adnicy;;
+nhours;Ile godzin zak³adnicy byli przetrzymywani;;
+ndays;Ile dni zak³adnicy byli przetrzymywani;;
+divert;Je¿eli zak³adnicy byli przewiezieni do innego kraju/krajów to tutaj s¹ one wymienione;;
+kidhijcountry;Kraj w którym zak³adnicy zostali uwolnieni (kraj rozwi¹zania incydentu);;
+ransom;Czy za¿¹dano okupu;;"1 = tak
+0 = nie
+-9 = ""Unknown""
+puste = Not applicable"
+ransomamt;Wielkoœæ za¿¹danego okupu (w USD) ;; -99 = nieznana
+ransomamtus;Wielkoœæ za¿adanego okupu od osoby/organizacji z USA ;; -99 = nieznana
+ransompaid;Wielkoœæ zap³aconego okupu;; -99 = nieznana
+ransompaidus;Wielkosæ zap³aconego okupu przez osobê/organizacjê z USA;; -99 = nieznana
+ransomnote;Szczegó³y dotycz¹ce okupu (np.: gdy by³ niefinansowy);;
+hostkidoutcome;Szczegó³y dotycz¹ce losu zak³adników -kod;;"1 = Attempted Rescue
+2 = Hostage(s) released by perpetrators
+3 = Hostage(s) escaped (not during rescue attempt)
+4 = Hostage(s) killed (not during rescue attempt)
+5 = Successful Rescue
+6 = Combination
+7 = Unknown"
+hostkidoutcome_txt;Szczegó³y dotycz¹ce losu zak³adaników - opis;;
+nreleased;Iloœæ zak³adaników uwolnionych/wypuszczonych i tych którzy uciekli;; -99 = nieznana
+addnotes;Dodatkowe informacje o ataku (tekst);;
+scite1;ród³o informacji o ataku;;
+scite2;Gdy wiecej ni¿ jedno Ÿród³o informacji o ataku;;
+scite3;Gdy wiecej ni¿ jedno Ÿród³o informacji o ataku;;
+dbsource;Orginalna baza w której znalaz³a siê inforamcja o incydencie;;
+INT_LOG;Czy terrroryœci pochodzili z innego kraju (czy atak wymaga³ przekrocznia przez nich granicy);;"1 = tak
+0 = nie
+-9 = niewiadomo"
+INT_IDEO;Czy terroryœci zaatakowali osobê / cel innej narodowoœci;;"1 = tak
+0 = nie
+-9 = niewiadomo"
+INT_MISC;"Czy atak by³ ""miêdzynarodowy"" ( czy zasz³o INT_LOG lub INT_IDEO)";;"1 = tak
+0 = nie
+-9 = niewiadomo"
+INT_ANY;"Czy atak by³ ""miêdzynarodowy"" ( czy zasz³o INT_LOG , INT_IDEO lub INT_ANY)";;"1 = tak
+0 = nie
+-9 = niewiadomo"
+related;Je¿eli incydent jest po³¹czony z innymi (multiple = 1) to jest tu lista powi¹zanych incydentów;;
